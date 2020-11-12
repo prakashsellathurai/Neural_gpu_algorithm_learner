@@ -38,3 +38,15 @@ To evaluate a trained model on how well it decodes run:
 ```
 python neural_gpu_trainer.py --problem=$(problem_task_name) --mode=1
 ```
+
+**Citation:**
+```
+@misc{kaiser2016neural,
+      title={Neural GPUs Learn Algorithms}, 
+      author={Łukasz Kaiser and Ilya Sutskever},
+      year={2016},
+      eprint={1511.08228},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
